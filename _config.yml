@@ -1,1 +1,8 @@
-theme: jekyll-theme-midnight
+title: Portifolio
+email: lucasmtercas@gmail.com
+description: Github Page about me and my projects
+github_username: lucastercas
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
