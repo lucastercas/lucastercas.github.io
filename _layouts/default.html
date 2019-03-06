@@ -6,7 +6,7 @@
       href="https://fonts.googleapis.com/css?family=Fira+Sans"
       rel="stylesheet"
     />
-    <title>Lucas Terças - </title>
+    <title>Lucas Terças - {{ title }}</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -19,29 +19,7 @@
       </nav>
     </header>
     <main>
-      <div id="home">
-  <h1>Welcome To My Personal Page</h1>
-</div>
-
-<div id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a brazilian computer science student,
-  </p>
-  <p>
-    Here I keep a summary of all my personal projects, with links to them, and
-    also pretend to write some blog posts... eventually.
-  </p>
-</div>
-
-<div id="projects">
-  <h2>My Personal Projects</h2>
-</div>
-
-<div id="contact">
-  <h2>Contact Me</h2>
-</div>
-
+      {{ content }}
     </main>
   </body>
 </html>

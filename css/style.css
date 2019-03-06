@@ -1,0 +1,51 @@
+body {
+  background-color: #282828;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ebdbb2;
+}
+
+header {
+  background-color: #1d2021;
+  border-bottom: 1px dashed #d65d0e;
+}
+
+a {
+  text-decoration: none;
+  color: #ebdbb2;
+}
+
+#nav-bar {
+  overflow: hidden;
+  background-color: #1d2021;
+}
+
+#nav-bar a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#nav-bar a:hover {
+  background-color: #3c3836;
+}
+
+#nav-main {
+  float: left;
+}
+
+.nav-link {
+  float: right;
+}
+
+main {
+  background-color: #282828;
+  margin: 40px auto;
+  line-height: 1.6;
+  padding: 0 10px;
+  max-width: 650px;
+}
+
+h1 {
+  text-align: center;
+}
