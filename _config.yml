@@ -1,8 +1,0 @@
-title: Portifolio
-email: lucasmtercas@gmail.com
-description: Github Page about me and my projects
-github_username: lucastercas
-theme: jekyll-theme-hacker
-markdown: kramdown
-plugins:
-  - jekyll-feed
