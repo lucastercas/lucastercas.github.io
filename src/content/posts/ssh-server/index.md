@@ -40,9 +40,9 @@ Por exemplo, no GitLab, essa é a interface pra salvar as variaveis
 
 ```yml
 script:
-  - eval $(ssh-agent -s)                           # Começar o agente SSH
-  - mkdir -p ~/.ssh                                # Criar o diretório do SSH, caso o container não tenha um
-  - ssh-keyscan $HOST > ~/.ssh/known_hosts         # Pegar a chave pública do host
-  - bash -c 'ssh-add <(echo $SSH_PRIVATE_KEY)'     # Adicionar a chave privada do host
-  - ssh $USER@$HOST 'echo hello world'             # SSH no servidor
+  - eval $(ssh-agent -s)                       # Começar o agente SSH
+  - mkdir -p ~/.ssh                            # Criar o diretório do SSH, caso o container não tenha um
+  - ssh-keyscan $HOST > ~/.ssh/known_hosts     # Pegar a chave pública do host
+  - bash -c 'ssh-add <(echo $SSH_PRIVATE_KEY)' # Adicionar a chave privada do host
+  - ssh $USER@$HOST 'echo hello world'         # SSH no servidor
 ```
