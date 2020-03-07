@@ -1,8 +1,8 @@
 ---
 path: "/ssh-cicd-server"
 date: "2020-02-14"
-title: "Deploying code by SSHing into a machine"
-description: "SSH into server on CI/CD machine"
+title: "SSH para deploy mais fácil."
+description: "SSH em um servidor para facilitar o deploy."
 ---
 
 De vez em quando, quando tenho que fazer o deploy de alguma aplicação, tenho
